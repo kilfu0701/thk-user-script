@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            JSON prettifier.
 // @namespace       https://github.com/kilfu0701
-// @description     Prettify json string.
+// @description     Prettify json string, use 'shift + p' to run this script.
 // @match           http://*/*
 // @match           https://*/*
 // @run-at          document-end
