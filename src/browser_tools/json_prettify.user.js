@@ -20,7 +20,7 @@ var debug_mode = 1;
 
         // charCode = 1, ctrl + shift + a
         var charCode = (typeof e.which == "number") ? e.which : e.keyCode;
-        var t = document.body.textContent;
+        var t = document.body.innerText;
         var pre = document.createElement('pre');
         
         //console.log(charCode);
