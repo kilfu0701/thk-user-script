@@ -6,7 +6,7 @@
 // @match           https://*/*
 // @run-at          document-end
 // @include         *
-// @version         1.0
+// @version         1.1
 // ==/UserScript==
 
 var jQuery = {
@@ -15,7 +15,7 @@ var jQuery = {
 
 (function(window, document) {
 
-    if (typeof jQuery === 'undefined') {
+    if (typeof window.parent.jQuery === 'undefined') {
         var jq = document.createElement('script');
         jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/" + jQuery.version + "/jquery.min.js";
         document.getElementsByTagName('head')[0].appendChild(jq);
