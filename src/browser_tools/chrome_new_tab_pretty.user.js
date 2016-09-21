@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chrome New Tab Prettify.
 // @namespace    https://github.com/kilfu0701
-// @version      0.1
+// @version      0.2
 // @description  Prettify UI on Chrome new tab.
 // @author       kilfu0701
 // @match        /^http[s]?:\/\/www.google*/
