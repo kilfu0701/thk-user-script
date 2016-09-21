@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chrome New Tab Prettify.
 // @namespace    https://github.com/kilfu0701
-// @version      0.3
+// @version      0.4
 // @description  Prettify UI on Chrome new tab.
 // @author       kilfu0701
 // @match        /^http[s]?:\/\/www.google*/
@@ -24,7 +24,7 @@ if (location.pathname === "/_/chrome/newtab") {
         search_bar: $('#f')
     };
 
-    $.each(hide, function (val) {
+    $.each(hide, function (k, val) {
         if (val in $el) {
             $el[val].hide();
         }
