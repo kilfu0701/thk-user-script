@@ -13,4 +13,6 @@
 
 if(location.pathname === "/_/chrome/newtab") {
     $('.mv-hide').hide();
+    $('#lga').hide();
+    $('#f').hide();
 }
