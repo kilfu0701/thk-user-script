@@ -21,7 +21,7 @@ Here's some personal useful script that I use. Hope you will love it.
 
 ## Script Lists
 
-  - [JSON prettify](https://github.com/kilfu0701/thk-user-script/blob/master/src/browser_tools/json_prettify.user.js) : press `ctrl + shift + a` to prettify on a json response. <font color="blue">[Chrome / Firefox]<font>
+  - [JSON prettify](https://github.com/kilfu0701/thk-user-script/blob/master/src/browser_tools/json_prettify/main.user.js) : press `ctrl + shift + a` to prettify on a json response. <font color="blue">[Chrome / Firefox]<font>
     ![alt tag](https://raw.githubusercontent.com/kilfu0701/thk-user-script/master/img/json-prettify-1.png) -> to -> ![alt tag](https://raw.githubusercontent.com/kilfu0701/thk-user-script/master/img/json-prettify-2.png)
 
 ## Contributing
