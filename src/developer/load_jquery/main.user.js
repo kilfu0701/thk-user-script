@@ -4,21 +4,28 @@
 // @description     Load jQuery into page if not exists, easy for debugging in console.
 // @match           http://*/*
 // @match           https://*/*
+// @require         http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @run-at          document-end
 // @include         *
-// @version         1.2
+// @version         1.3
 // ==/UserScript==
 
+
+// Using @require to load jquery.
+/*
 var Config = {
     version: '1.12.4'
 };
 
-(function(window, document) {
+(function() {
+    if (window !== window.top)
+        return ;
 
-    if (typeof window.parent.jQuery === 'undefined') {
+    if (typeof window.jQuery === 'undefined') {
         var jq = document.createElement('script');
         jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/" + Config.version + "/jquery.min.js";
-        document.getElementsByTagName('head')[0].appendChild(jq);
+        document.getElementsByTagName('body')[0].appendChild(jq);
     }
 
-})(window, document);
+})();
+*/
