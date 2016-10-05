@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name            Press `Ctrl + Shift + j` to load JQuery into page.
+// @name            Load JQuery into page.
 // @namespace       https://github.com/kilfu0701
-// @description     Load jQuery into page, easy for debugging in console.
+// @description     Press `Ctrl + Shift + j` to load jQuery into page, easy for debugging in console.
 // @match           http://*/*
 // @match           https://*/*
 // @run-at          document-end
 // @include         *
-// @version         1.5
+// @version         1.6
 // ==/UserScript==
 
 
