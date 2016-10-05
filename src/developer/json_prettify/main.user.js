@@ -6,8 +6,7 @@
 // @match           https://*/*
 // @run-at          document-end
 // @include         *
-// @require         http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
-// @version         1.2
+// @version         1.3
 // ==/UserScript==
 
 //"use strict";
@@ -17,7 +16,7 @@
     if(document.contentType !== 'application/json')
         return ;
 
-    $(window).on('keydown', function(e) {
+    window.addEventListener('keydown', function(e) {
         if (e.keyCode === 65) {
             var result = '';
             var t = document.body.innerText || document.body.textContent;
